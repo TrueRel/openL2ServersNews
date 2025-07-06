@@ -49,7 +49,11 @@ public class ServerParserService {
                                 lower.contains("moon-land.com") ||
                                 lower.contains("l2etina.com") ||
                                 lower.contains("interlude-online") ||
-                                lower.contains("lu4")
+                                lower.contains("lu4") ||
+                                lower.contains("flauron.com") ||
+                                lower.contains("valhalla-age") ||
+                                lower.contains("thebattle.club") ||
+                                lower.contains("bohpts")
                 )) {
                     servers.add(text);
                 }
