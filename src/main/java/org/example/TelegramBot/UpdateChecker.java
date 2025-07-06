@@ -22,20 +22,27 @@ public class UpdateChecker {
         this.bot = bot;
     }
 
-    @Scheduled(fixedDelay = 300000) // каждые 5 минут
+    @Scheduled(fixedDelay = 60*60*1000) // каждый 1 час
+//        @Scheduled(fixedDelay = 10000) // каждый 10sec
     public void checkForUpdates() {
-        List<String> current = parserService.getFilteredServers();
-        if (!current.equals(lastServers)) {
-            lastServers = current;
-            String message = String.join("\n", current);
+        System.out.println("Проверка обновлений: " + System.currentTimeMillis());
+        String header = "Ближайшее открытие серверов:\n\n БС = Бонус Старт \n\n";
+
+        List<String> currentServers = parserService.getFilteredServers();
+        if (!currentServers.equals(lastServers)) {
+            lastServers = new ArrayList<>(currentServers);
+            String message = String.join("\n", currentServers);
             SendMessage msg = new SendMessage();
             msg.setChatId("291780876"); // chatId пользователя
-            msg.setText(message.length() > 4000 ? message.substring(0, 4000) : message);
+            msg.setText(header+( message.length() > 4000 ? message.substring(0, 4000) : message));
             try {
                 bot.execute(msg);
+                System.out.println("Обновления отправлены в Telegram");
             } catch (TelegramApiException e) {
                 e.printStackTrace();
             }
+        }else {
+            System.out.println("Нет изменений — сообщение не отправлено.");
         }
     }
 }
