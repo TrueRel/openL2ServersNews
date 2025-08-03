@@ -53,7 +53,7 @@ public class ServerParserService {
                                 lower.contains("flauron.com") ||
                                 lower.contains("valhalla-age") ||
                                 lower.contains("thebattle.club") ||
-                                lower.contains("bohpts")
+                                lower.contains("bohpts.org")
                 )) {
                     servers.add(text);
                 }

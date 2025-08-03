@@ -7,6 +7,7 @@ import org.telegram.telegrambots.meta.api.methods.send.SendMessage;
 import org.telegram.telegrambots.meta.exceptions.TelegramApiException;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 
 @Component
@@ -23,12 +24,15 @@ public class UpdateChecker {
     }
 
     @Scheduled(fixedDelay = 60*60*1000) // каждый 1 час
-//        @Scheduled(fixedDelay = 10000) // каждый 10sec
+   //@Scheduled(fixedDelay = 60000) // каждый 10sec
     public void checkForUpdates() {
         System.out.println("Проверка обновлений: " + System.currentTimeMillis());
         String header = "Ближайшее открытие серверов:\n\n БС = Бонус Старт \n\n";
 
         List<String> currentServers = parserService.getFilteredServers();
+        Collections.sort(currentServers);
+        Collections.sort(lastServers);
+
         if (!currentServers.equals(lastServers)) {
             lastServers = new ArrayList<>(currentServers);
             String message = String.join("\n", currentServers);
