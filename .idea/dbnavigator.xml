@@ -3,9 +3,12 @@
   <component name="DBNavigator.Project.DatabaseFileManager">
     <open-files />
   </component>
+<<<<<<< HEAD
   <component name="DBNavigator.Project.ExecutionManager">
     <retain-sticky-names value="false" />
   </component>
+=======
+>>>>>>> old-commits
   <component name="DBNavigator.Project.Settings">
     <connections />
     <browser-settings>

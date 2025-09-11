@@ -9,6 +9,7 @@
         <module name="TestSelenium" />
       </profile>
     </annotationProcessing>
+<<<<<<< HEAD
     <bytecodeTargetLevel>
       <module name="TestSelenium" target="17" />
     </bytecodeTargetLevel>
@@ -17,5 +18,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="TestSelenium" options="-parameters" />
     </option>
+=======
+>>>>>>> old-commits
   </component>
 </project>
