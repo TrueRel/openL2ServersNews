@@ -1,0 +1,8 @@
+# Default ignored files
+/shelf/
+/.idea/workspace.xml
+/dbnavigator.xml
+/.idea
+/drivers
+*.log
+*.temp
