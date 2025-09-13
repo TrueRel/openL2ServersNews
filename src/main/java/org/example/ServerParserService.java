@@ -43,6 +43,7 @@ public class ServerParserService {
                         lower.contains("scryde.net") ||
                                 lower.contains("l2mad.net") ||
                                 lower.contains("euro-pvp.net") ||
+                                lower.contains("euro-pvp") ||
                                 lower.contains("ketrawars.net") ||
                                 lower.contains("e-global") ||
                                 lower.contains("турнир") ||
