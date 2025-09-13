@@ -3,6 +3,15 @@
   <component name="DBNavigator.Project.DatabaseFileManager">
     <open-files />
   </component>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+  <component name="DBNavigator.Project.ExecutionManager">
+    <retain-sticky-names value="false" />
+  </component>
+=======
+>>>>>>> old-commits
+>>>>>>> 69fd75e814f6215666cc6e8f24d1ca20dfc89c81
   <component name="DBNavigator.Project.Settings">
     <connections />
     <browser-settings>
