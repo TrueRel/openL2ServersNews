@@ -1,3 +1,53 @@
 Manifest-Version: 1.0
 Main-Class: org.example.TelegramBot.TelegramBotApplication
+Class-Path: jersey-common-3.1.3.jar junit-platform-commons-1.10.1.jar je
+ rsey-client-3.1.3.jar selenium-chromium-driver-4.14.1.jar spring-jcl-6.
+ 1.1.jar jackson-annotations-2.15.3.jar selenium-devtools-v123-4.19.1.ja
+ r selenium-devtools-v85-4.14.1.jar opentelemetry-semconv-1.28.0-alpha.j
+ ar guava-32.1.2-jre.jar jsr305-3.0.2.jar log4j-api-2.21.1.jar selenium-
+ remote-driver-4.14.1.jar jackson-datatype-jsr310-2.15.3.jar jakarta.ws.
+ rs-api-3.1.0.jar telegrambots-6.8.0.jar selenium-http-4.14.1.jar httpco
+ re-4.4.16.jar junit-jupiter-engine-5.10.1.jar spring-beans-6.1.1.jar fa
+ ilsafe-3.3.2.jar spring-aop-6.1.1.jar opentelemetry-sdk-extension-autoc
+ onfigure-1.31.0.jar grizzly-framework-4.0.0.jar osgi-resource-locator-1
+ .0.3.jar spring-boot-starter-3.2.0.jar selenium-devtools-v122-4.19.1.ja
+ r javassist-3.29.2-GA.jar spring-web-6.1.1.jar opentelemetry-sdk-1.31.0
+ .jar spring-boot-starter-json-3.2.0.jar tomcat-embed-el-10.1.16.jar jak
+ arta.validation-api-3.0.2.jar jersey-entity-filtering-3.1.3.jar jersey-
+ media-json-jackson-3.1.3.jar logback-core-1.4.11.jar telegrambots-sprin
+ g-boot-starter-6.8.0.jar selenium-manager-4.14.1.jar hk2-locator-3.0.4.
+ jar selenium-json-4.14.1.jar selenium-safari-driver-4.14.1.jar jackson-
+ datatype-jdk8-2.15.3.jar error_prone_annotations-2.18.0.jar selenium-ch
+ rome-driver-4.14.1.jar opentelemetry-exporter-logging-1.31.0.jar junit-
+ jupiter-api-5.10.1.jar jackson-module-parameter-names-2.15.3.jar hk2-ut
+ ils-3.0.4.jar commons-io-2.11.0.jar jackson-databind-2.15.3.jar jackson
+ -jaxrs-json-provider-2.15.3.jar opentelemetry-context-1.31.0.jar apigua
+ rdian-api-1.1.2.jar jersey-hk2-3.1.3.jar selenium-edge-driver-4.14.1.ja
+ r opentelemetry-api-1.31.0.jar opentelemetry-sdk-common-1.31.0.jar open
+ telemetry-sdk-metrics-1.31.0.jar commons-exec-1.3.jar jackson-module-ja
+ xb-annotations-2.15.3.jar telegrambots-meta-6.8.0.jar selenium-devtools
+ -v121-4.19.1.jar selenium-os-4.14.1.jar opentelemetry-sdk-trace-1.31.0.
+ jar commons-lang3-3.13.0.jar snakeyaml-2.2.jar micrometer-observation-1
+ .12.0.jar jersey-container-grizzly2-http-3.1.3.jar jackson-core-2.15.3.
+ jar hk2-api-3.0.4.jar spring-boot-autoconfigure-3.2.0.jar opentelemetry
+ -sdk-logs-1.31.0.jar micrometer-commons-1.12.0.jar opentest4j-1.3.0.jar
+  jersey-server-3.1.3.jar slf4j-api-2.0.9.jar httpmime-4.5.13.jar failur
+ eaccess-1.0.1.jar selenium-firefox-driver-4.14.1.jar auto-service-annot
+ ations-1.1.1.jar spring-core-6.1.1.jar opentelemetry-api-events-1.31.0-
+ alpha.jar log4j-to-slf4j-2.21.1.jar commons-logging-1.2.jar logback-cla
+ ssic-1.4.11.jar jackson-module-jakarta-xmlbind-annotations-2.15.3.jar h
+ ttpclient-4.5.13.jar commons-codec-1.16.0.jar grizzly-http-server-4.0.0
+ .jar selenium-support-4.14.1.jar jakarta.xml.bind-api-4.0.1.jar spring-
+ expression-6.1.1.jar junit-platform-engine-1.10.1.jar tomcat-embed-webs
+ ocket-10.1.16.jar selenium-ie-driver-4.14.1.jar spring-context-6.1.1.ja
+ r jakarta.annotation-api-2.1.1.jar aopalliance-repackaged-3.0.4.jar che
+ cker-qual-3.33.0.jar spring-boot-starter-web-3.2.0.jar spring-boot-star
+ ter-logging-3.2.0.jar selenium-api-4.14.1.jar jul-to-slf4j-2.0.9.jar ja
+ ckson-jaxrs-base-2.15.3.jar listenablefuture-9999.0-empty-to-avoid-conf
+ lict-with-guava.jar byte-buddy-1.14.10.jar j2objc-annotations-2.8.jar s
+ pring-boot-starter-tomcat-3.2.0.jar opentelemetry-extension-incubator-1
+ .31.0-alpha.jar jakarta.inject-api-2.0.1.jar spring-webmvc-6.1.1.jar gr
+ izzly-http-4.0.0.jar opentelemetry-sdk-extension-autoconfigure-spi-1.31
+ .0.jar tomcat-embed-core-10.1.16.jar selenium-java-4.19.1.jar spring-bo
+ ot-3.2.0.jar
 

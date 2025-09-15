@@ -20,8 +20,8 @@ public class DriverManager {
         System.out.println("Current dir: " + currentDir);
 
         //  09.09.25 изменил абсолютный путь на относительный чтчо бы запускать на любом компе
-        driverPath = Paths.get(currentDir, "TestSelenium", "drivers", "chromedriver-win64", "chromedriver.exe").toString();
-        chromePath = Paths.get(currentDir,"TestSelenium",  "drivers", "chrome-win64", "chrome.exe").toString();
+        driverPath = Paths.get(currentDir, "drivers", "chromedriver-win64", "chromedriver.exe").toString();
+        chromePath = Paths.get(currentDir,  "drivers", "chrome-win64", "chrome.exe").toString();
         System.setProperty("webdriver.chrome.driver", driverPath);
 
         File f = new File(driverPath);
